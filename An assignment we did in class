@@ -1,0 +1,12 @@
+favorite_color = input('Enter favorite color:\n')
+pet_name = input('Enter pet\'s name:\n')
+favorite_number = int(input('Enter a number:\n'))
+
+print('You entered:', favorite_color, pet_name, favorite_number)
+print('')
+print('First password:', favorite_color + '_' + pet_name )
+print('Second password:', str(favorite_number) + favorite_color + str(favorite_number))
+print('')
+print('Number of characters in', favorite_color + '_' + pet_name + ':', len(favorite_color + '_' + pet_name))
+print('Number of characters in', str(favorite_number) + favorite_color + str(favorite_number) + ':',
+      len(str(favorite_number) + favorite_color + str(favorite_number)))
